@@ -4,7 +4,7 @@ from disnake.ext.commands import has_any_role
 from config import ROLE_COMMAND_ACCESS
 
 @has_any_role(*ROLE_COMMAND_ACCESS)
-@bot.command(name="list_birthdays")
+@bot.command(name="list_birthday")
 async def list_birthdays_cmd(ctx):
     rows = await db.get_info_birthday()
     
