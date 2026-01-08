@@ -11,7 +11,7 @@ intent.guild_reactions = True
 
 bot = Bot(
     help_command=None,
-    command_prefix="$",
+    command_prefix="%",
     intents=intent
 )
 
